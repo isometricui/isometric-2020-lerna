@@ -13,13 +13,11 @@
     "packages/*"
   ],
   "scripts": {
+    "commitlint": "commitlint",
     "develop": "",
     "lerna": "lerna",
     "lint": "eslint",
     "test": "jest"
-  },
-  "dependencies": {
-    "lerna": "^3.22.1"
   },
   "browserslist": {
     "production": [
@@ -32,5 +30,16 @@
     "development": [
       "last 1 version"
     ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "husky": "4.3.5",
+    "lerna": "^3.22.1"
   }
 }
