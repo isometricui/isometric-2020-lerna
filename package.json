@@ -1,0 +1,10 @@
+{
+  "name": "isometric",
+  "version": "0.0.0",
+  "description": "Isometric UI Components",
+  "main": "index.js",
+  "repository": "https://github.com/isometricui/isometric.git",
+  "author": "Ömer Balyali <omerbalyali@gmail.com> (http://www.omerbalyali.com)",
+  "license": "MIT",
+  "private": true
+}
