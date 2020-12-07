@@ -3,8 +3,34 @@
   "version": "0.0.0",
   "description": "Isometric UI Components",
   "main": "index.js",
+  "homepage": "http://www.isometricui.com",
+  "bugs": "https://github.com/isometricui/isometric/issues",
   "repository": "https://github.com/isometricui/isometric.git",
   "author": "Ömer Balyali <omerbalyali@gmail.com> (http://www.omerbalyali.com)",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "develop": "",
+    "lerna": "lerna",
+    "lint": "eslint",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lerna": "^3.22.1"
+  },
+  "browserslist": {
+    "production": [
+      "defaults",
+      "not IE 11",
+      "not IE_Mob 11",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 version"
+    ]
+  }
 }
