@@ -1,5 +1,5 @@
 {
-  "name": "isometric",
+  "name": "@isometric/isometric",
   "version": "0.0.0",
   "description": "Isometric UI Components",
   "main": "index.js",
